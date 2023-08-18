@@ -318,7 +318,7 @@ async def start(client, message):
                     InlineKeyboardButton('ʜᴏᴡ ᴛᴏ ᴠᴇʀɪғʏ', url=f'https://t.me/how_to_open_linkzz/7')
                 ]]
                 await message.reply_text(
-                    text="<b>You are not verified !\nKindly verify to continue ! once You Verify You Can Use This Bot Without any Links For Full Day 🥳 Watch This Video To Know How To Verify https://t.me/how_to_open_linkzz/7</b>",
+                    text="<b>You are not verified !\nKindly verify to continue ! So That you Can Get Access To Unlimited Movies Until 12 Hours From Now !  </b>",
                     protect_content=True,
                     reply_markup=InlineKeyboardMarkup(btn)
                 )
@@ -383,7 +383,7 @@ async def start(client, message):
                     InlineKeyboardButton('ʜᴏᴡ ᴛᴏ ᴠᴇʀɪғʏ', url=f'https://t.me/how_to_open_linkzz/7')
                 ]]
                 await message.reply_text(
-                    text="<b>You are not verified !\nKindly verify to continue ! once You Verify You Can Use This Bot Without any Links For Full Day 🥳 Watch This Video To Know How To Verify https://t.me/how_to_open_linkzz/7</b>",
+                    text="<b>You are not verified !\nKindly verify to continue ! So That you Can Get Access To Unlimited Movies Until 12 Hours From Now ! </b>",
                     protect_content=True,
                     reply_markup=InlineKeyboardMarkup(btn)
                 )
@@ -444,7 +444,7 @@ async def start(client, message):
                     InlineKeyboardButton('ʜᴏᴡ ᴛᴏ ᴠᴇʀɪғʏ', url=f'https://t.me/how_to_open_linkzz/7')
                 ]]
         await message.reply_text(
-            text="<b>You are not verified !\nKindly verify to continue ! once You Verify You Can Use This Bot Without any Links For Full Day 🥳 Watch This Video To Know How To Verify https://t.me/how_to_open_linkzz/7</b>",
+            text="<b>You are not verified !\nKindly verify to continue ! So That you Can Get Access To Unlimited Movies Until 12 Hours From Now ! </b>",
             protect_content=True,
             reply_markup=InlineKeyboardMarkup(btn)
         )
