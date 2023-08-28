@@ -21,10 +21,10 @@ BOT_TOKEN = environ.get('BOT_TOKEN', "")
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
 
-PICS = (environ.get('PICS', 'https://te.legra.ph/file/cce1c345a4a752453a3a3.jpg')).split() #SAMPLE PIC
-NOR_IMG = environ.get("NOR_IMG", "https://te.legra.ph/file/50e572f32c8cce1aa5fd2.jpg")
-MELCOW_VID = environ.get("MELCOW_VID", "https://te.legra.ph/file/50e572f32c8cce1aa5fd2.jpg")
-SPELL_IMG = environ.get("SPELL_IMG", "https://te.legra.ph/file/15c1ad448dfe472a5cbb8.jpg")
+PICS = (environ.get('PICS', 'https://telegra.ph/file/5f1a3df8d7029f29287a0.jpg')).split() #SAMPLE PIC
+NOR_IMG = environ.get("NOR_IMG", "https://telegra.ph/file/c8044bcba7718250e0f56.jpg")
+MELCOW_VID = environ.get("MELCOW_VID", "https://telegra.ph/file/9aae149859b51d281c90f.jpg")
+SPELL_IMG = environ.get("SPELL_IMG", "https://telegra.ph/file/d91faa989545ff3697b57.jpg")
 
 # Admins, Channels & Users
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '').split()]
@@ -49,20 +49,20 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Others
 VERIFY = bool(environ.get('VERIFY', False))
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'Tulinks.online')
-SHORTLINK_API = environ.get('SHORTLINK_API', 'a51f9343387ae049a5fd8d8e418aa35f20bc459e')
-IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', False))
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'gplinks.in')
+SHORTLINK_API = environ.get('SHORTLINK_API', 'd0512170691b60126c30f16ebc491c8d04788f7b')
+IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', True))
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
 MAX_B_TN = environ.get("MAX_B_TN", "5")
 MAX_BTN = is_enabled((environ.get('MAX_BTN', "True")), True)
 PORT = environ.get("PORT", "8080")
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/+u9dSPxCw_LRlODc1')
-CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/ajbackupp')
-TUTORIAL = environ.get('TUTORIAL', 'https://t.me/how_to_open_linkzz/7')
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/AtoZmoviesflix')
+CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/atozmoviesupdates')
+TUTORIAL = environ.get('TUTORIAL', 'https://t.me/howtoopen113')
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', True))
 MSG_ALRT = environ.get('MSG_ALRT', 'Wʜᴀᴛ Aʀᴇ Yᴏᴜ Lᴏᴏᴋɪɴɢ Aᴛ ?')
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', ''))
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'aj_supportbot')
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'Atozflixbot')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "False")), False)
 IMDB = is_enabled((environ.get('IMDB', "False")), True)
 AUTO_FFILTER = is_enabled((environ.get('AUTO_FFILTER', "True")), True)
